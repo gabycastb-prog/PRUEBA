@@ -1,3 +1,5 @@
+
+
 function Card(props: { titulo: string; descripcion: string; imagen: string }) {
   return (
     <div className="bg-white rounded-xl shadow-lg overflow-hidden">
@@ -11,6 +13,7 @@ function Card(props: { titulo: string; descripcion: string; imagen: string }) {
           {props.titulo}
         </h2>
         <p className="text-gray-600">{props.descripcion}</p>
+         
       </div>
     </div>
   )
